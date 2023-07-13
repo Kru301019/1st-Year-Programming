@@ -31,11 +31,11 @@ def drawCircle(win, centre, radius, colour):
     
 
 
-def drawBrownEyeInCentre():
+def drawBrownEyeInCentre(x, y, win):
 
-    win = GraphWin()
-    centre = Point(100, 100)
-    radius = [60, 30, 15]
+    
+    centre = Point(x+50, y+50)
+    radius = [50, 30, 15]
     colour = ['white', 'brown', 'black']
 
     for i in range(len(radius)):
